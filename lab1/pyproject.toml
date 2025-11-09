@@ -19,8 +19,8 @@ dependencies = [
     "pycocotools>=2.0.10",
     "pyturbojpeg>=1.8.2",
     "scikit-learn>=1.7.2",
-    "torch>=2.8.0",
-    "torchaudio>=2.8.0",
+    "torch>=2.9.0",
+    "torchaudio>=2.9.0",
     "torchvision>=0.23.0",
     "tqdm>=4.67.1",
 ]
@@ -32,16 +32,16 @@ dev = [
 
 [tool.uv.sources]
 torch = [
-    { index = "pytorch-cu129" },
+    { index = "pytorch-cu130" },
 ]
 torchvision = [
-    { index = "pytorch-cu129" },
+    { index = "pytorch-cu130" },
 ]
 torchaudio = [
-    { index = "pytorch-cu129" },
+    { index = "pytorch-cu130" },
 ]
 
 [[tool.uv.index]]
-name = "pytorch-cu129"
-url = "https://download.pytorch.org/whl/cu129"
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
 explicit = true
